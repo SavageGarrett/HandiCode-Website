@@ -317,18 +317,19 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1297px;
+    min-height: 1438px;
   }
 
   .u-section-2 .u-image-1 {
     min-height: 441px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 340px;
+    margin-top: 318px;
+    margin-right: -23px;
   }
 
   .u-section-2 .u-image-2 {
     height: 340px;
+    margin-top: -687px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -336,11 +337,14 @@
 
   .u-section-2 .u-list-1 {
     width: 259px;
+    margin-top: 37px;
+    margin-bottom: 23px;
   }
 
   .u-section-2 .u-repeater-1 {
-    grid-template-columns: repeat(1, 100%);
-    min-height: 844px;
+    grid-template-columns: 100%;
+    min-height: 967px;
+    grid-gap: 33px 33px;
   }
 } .u-section-3 {
   background-image: none;
@@ -862,7 +866,7 @@
   }
 } .u-section-5 {
   background-image: none;
-  min-height: 1232px;
+  min-height: 1088px;
 }
 
 .u-section-5 .u-shape-1 {
@@ -887,17 +891,17 @@
 }
 
 .u-section-5 .u-image-1 {
-  width: 816px;
-  height: 612px;
+  width: 629px;
+  height: 471px;
   object-position: 50% 50%;
   box-shadow: 0 0 25px 0 rgba(0,0,0,0.3);
-  margin: -362px calc(((100% - 1140px) / 2) + 133px) 0 auto;
+  margin: -320px calc(((100% - 1140px) / 2) + 242px) 0 auto;
 }
 
 .u-section-5 .u-group-1 {
   min-height: 380px;
   width: 614px;
-  margin: -992px calc(((100% - 1140px) / 2) + 51px) 60px auto;
+  margin: -893px calc(((100% - 1140px) / 2) + 51px) 60px auto;
 }
 
 .u-section-5 .u-container-layout-1 {
@@ -933,8 +937,7 @@
   .u-section-5 .u-image-1 {
     width: 748px;
     height: 689px;
-    margin-top: -320px;
-    margin-right: calc(((100% - 940px) / 2) + 124px);
+    margin-right: calc(((100% - 940px) / 2) + 242px);
   }
 
   .u-section-5 .u-group-1 {
@@ -1005,7 +1008,11 @@
 
 @media (max-width: 575px) {
    .u-section-5 {
-    min-height: 998px;
+    min-height: 1138px;
+  }
+
+  .u-section-5 .u-shape-1 {
+    margin-top: 127px;
   }
 
   .u-section-5 .u-shape-2 {
@@ -1021,14 +1028,14 @@
   .u-section-5 .u-image-1 {
     width: 340px;
     height: 325px;
-    margin-top: -194px;
-    margin-right: calc(((100% - 340px) / 2));
+    margin-top: -130px;
+    margin-right: auto;
   }
 
   .u-section-5 .u-group-1 {
     min-height: 519px;
     width: 274px;
-    margin-top: -864px;
+    margin-top: -928px;
     margin-right: calc(((100% - 340px) / 2) + 17px);
   }
 } .u-section-6 {
